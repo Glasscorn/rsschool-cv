@@ -17,3 +17,39 @@ But now I'am ready not only to remember everything I know before, but also to le
 1. __HTML/CSS (Advanced)__
 2. __JavaScript (Basic)__
 3. __Git/GitHub (Basic)__
+
+## Code examples
+
+In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". You have function with one side of the DNA (string, except for Haskell); you need to get the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
+
+Code:
+```
+function DNAStrand(dna){
+  let compl = '';
+  for (let i = 0; i < dna.length; i++){
+    switch(dna[i]){
+        case 'A':
+        compl += 'T';
+        break;
+        case 'T':
+        compl += 'A';
+        break;
+        case 'C':
+        compl += 'G';
+        break;
+        case 'G':
+        compl += 'C';
+        break;
+    }
+  }
+  return compl;
+}
+```
+## Projects 
+There are not any projects yet, but you can visit my [GutHub](https://github.com/Glasscorn/glasscorn.github.io) repository to watch some my websites
+## Education
+1. Junior Front-end courses in Gomel State Regional Palace of Creativity of Children and Youth
+2. "Responsive Web design certification" FreeCodeCamp.org
+3. RS School FS/FE stage#0 courses - __Now__
+## English
+B1 - Intermediate
