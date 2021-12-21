@@ -9,6 +9,10 @@
 5. <img src="telegram-brands.svg" width="10"> - __@Orgibeelaris__
 6. <img src="discord-brands.svg" width="10"> - __Glasscorn (Glasscorn)#6161__
 
+## About
+Hello! My name is Georgy, I'am beginner Front-end Developer. I learning web development since 2019. Unfortunely, I had to serve in the Belarus army in 2020 and forget all my skills. It's very sad, cause it was my dream to become an IT specialist.
+But now I'am ready not only to remember everything I know before, but also to learn something new. I hope the RS School will help me with this.
+
 ## Skills
 1. __HTML/CSS (Advanced)__
 2. __JavaScript (Basic)__
