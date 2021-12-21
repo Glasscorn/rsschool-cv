@@ -47,9 +47,11 @@ function DNAStrand(dna){
 ```
 ## Projects 
 There are not any projects yet, but you can visit my [GutHub](https://github.com/Glasscorn/glasscorn.github.io) repository to watch some my websites
+
 ## Education
 1. Junior Front-end courses in Gomel State Regional Palace of Creativity of Children and Youth
 2. "Responsive Web design certification" FreeCodeCamp.org
 3. RS School FS/FE stage#0 courses - __Now__
+
 ## English
 B1 - Intermediate
