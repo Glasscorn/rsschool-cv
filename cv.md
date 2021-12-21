@@ -7,7 +7,7 @@
 3. <img src="github-brands.svg" width="10"> - __@Glasscorn__
 4. <img src="phone-solid.svg" width="10"> - __+375257630870__
 5. <img src="telegram-brands.svg" width="10"> - __@Orgibeelaris__
-6. 
+6. <img src="discord-brands.svg" width="10"> - __Glasscorn (Glasscorn)#6161__
 
 ## Skills
 1. __HTML/CSS (Advanced)__
