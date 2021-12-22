@@ -1,1 +1,1 @@
-https://Glasscorn.github.io/rsschool-cv/
+# https://Glasscorn.github.io/rsschool-cv/
