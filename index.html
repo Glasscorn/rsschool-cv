@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>HTML, CSS & Git Basics</title>
+    </head>
+    <body>
+        <div id="content-wrap">
+            <header>
+                <h1 id="headline">Curriculum vitae of Glasscorn</h1>
+            </header>
+            <hr>
+            <main>
+                <img src="me.jpg" alt="Me">
+                <h2>Georgy Strohanau</h2>
+                <h2>Contacts</h2>
+                <hr>
+                <ol id="contacts-list" class="list">
+                    <li><i class="fas fa-map-marker-alt" style="color:rgb(255, 0, 51)"></i><span> - Minsk, Belarus</span></li>
+                    <li><i class="fas fa-envelope"></i><span> - st.glasscorn@gmail.com</span></li>
+                    <li><i class="fab fa-github" style="color:#be4bdb"></i><span> - @Glasscorn</span></li>
+                    <li><i class="fas fa-phone" style="color:#82c91e;"></i><span> - +375257630870</span></li>
+                    <li><i class="fab fa-telegram-plane" style="color:#6483ff;"></i><span> - @Orgibeelaris</span></li>
+                    <li><i class="fab fa-discord" style="color:#be4bdb;"></i><span> - Glasscorn (Glasscorn)#6161</span></li>
+                </ol>
+                <h2>About</h2>
+                <hr>
+                <p>Hello! My name is Georgy, I’am beginner <strong>Front-end Developer</strong>. I learning web development since 2019. Unfortunely,
+                I had to serve in the Belarus army in 2020 and forget all my skills. It’s very sad, cause it was my dream to
+                become an IT specialist. But now I’am ready not only to remember everything I know before, but also to learn something new.
+                I hope the <strong>RS School</strong> will help me with this.</p>
+                <h2>Skills</h2>
+                <ol class="list">
+                    <li>HTML/CSS (Advanced)</li>
+                    <li>JavaScript (Basic)</li>
+                    <li>Git/GitHub (Basic)</li>
+                </ol>
+                <h2>Code examples</h2>
+                <hr>
+                <p>In DNA strings, symbols “A” and “T” are complements of each other, as “C” and “G”. You have function with one side of the DNA 
+                (string, except for Haskell); you need to get the other complementary side. DNA strand is never empty or there is no DNA at all 
+                (again, except for Haskell).</p>
+                <p>Code:</p>
+                <code><pre>function DNAStrand(dna){
+    let compl = '';
+    for (let i = 0; i &#60; dna.length; i++){
+        switch(dna[i]){
+            case 'A':
+            compl += 'T';
+            break;
+            case 'T':
+            compl += 'A';
+            break;
+            case 'C':
+            compl += 'G';
+            break;
+            case 'G':
+            compl += 'C';
+            break;
+        }
+    }
+    return compl;
+}</pre></code>
+                <h2>Projects</h2>
+                <hr>
+                <p>There are not any projects yet, but you can visit my <a href="https://github.com/Glasscorn/glasscorn.github.io" target="_blank">GutHub</a> repository to watch some my websites</p>
+                <h2>Education</h2>
+                <hr>
+                <ol class="list">
+                    <li>Junior Front-end courses in Gomel State Regional Palace of Creativity of Children and Youth</li>
+                    <li>“Responsive Web design certification” FreeCodeCamp.org</li>
+                    <li>RS School FS/FE stage#0 courses - <b>Now</b></li>
+                </ol>
+                <h2>English</h2>
+                <hr>
+                <p>B1 - Intermediate</p>
+            </main>
+        </div>
+        <script src="https://kit.fontawesome.com/c35004efdc.js" crossorigin="anonymous"></script>
+    </body>
+</html>
