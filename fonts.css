@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("Fonts/GothamBold.ttf");
+    font-weight: Bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gotham";
+    src: url("Fonts/GothamBook.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
