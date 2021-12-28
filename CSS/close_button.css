@@ -1,0 +1,44 @@
+#close-button {
+}
+
+#menu-toggle {
+    opacity: 0;
+}
+
+#menu-toggle:checked {
+
+}
+
+#menu-btn {
+    display: block;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.x-line {
+    position: relative;
+    width: 14px;
+    height: 2px;
+    display: block;
+    margin-right: 20px;
+    background: #ffffff;
+}
+
+#fst-close_line {
+    top: 2px
+}
+
+#scnd-close_line {
+
+}
+
+#thrd-close_line {
+    top: -2px;
+    transform: rotate(-45deg);
+}
+
+#fst-close_line,
+#scnd-close_line {
+    transform: rotate(45deg);
+}

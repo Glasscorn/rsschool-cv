@@ -5,36 +5,52 @@
     --def-point-color: #f58529;
     --def-current-time-bg: #ff0000;
     --def-skill-bar-bg: #1db954;
+    --def-fst-code-color: #0090ff;
+    --def-scnd-code-color: #ff0000;
+    --def-thrd-code-color: #05dc00;
+    --def-footer-color: #ffffff;
     --def-gotham-font: 'Gotham', sans-serif;
     --def-roboto-font: 'Roboto', sans-serif;
     --def-comfortaa-font: 'Comfortaa', Arial;
 }
 
 body {
-    margin: 0;
+    margin: 0
 }
 
 ul {
-    padding: 0;
+    padding: 0
 }
 
 li {
-    list-style-type: none;
+    list-style-type: none
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+a:visited {
+    color: inherit
 }
 
 #page-wrap {
     margin: 0 auto;
     width: 940px;
-    height: 100vh;
+    height: 100vh
 }
 
 header {
-    display: flex;
+    display: flex
 
 }
 
 .tile {
-    flex: 1;
+    flex: 1
 }
 
 aside {
@@ -42,19 +58,36 @@ aside {
     width: 400px;
     color: var(--def-secondary-text);
     font-family: var(--def-gotham-font);
-    font-weight: 400;
+    font-weight: 400
 }
 
 #headline-out-wrap {
-    display: grid;
+    display: grid
 }
 
 nav {
     grid-row: 1/2;
     grid-column: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 50px;
-    background: var(--def-main-color);
+    background: var(--def-main-color)
+}
+
+#nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list-point {
+    font-family: var(--def-comfortaa-font);
+    padding: 0 20px;
+}
+
+.nav-list-point a {
+    color: var(--def-footer-color);
 }
 
 #headline-in-wrap {
@@ -63,40 +96,40 @@ nav {
     grid-row: 1/2;
     grid-column: 1/2;
     padding: 0 20px;
-    line-height: 15px;
+    line-height: 15px
 }
 
 #headline-in-wrap > div {
-    width: 100%;
+    width: 100%
 }
 
 #headline-name {
     font-family: var(--def-comfortaa-font);
     font-weight: 700;
     font-size: 36px;
-    text-align: left;
+    text-align: left
 }
 
 #headline-dev {
     font-family: var(--def-comfortaa-font);
     font-weight: medium;
     font-size: 28px;
-    text-align: right;
+    text-align: right
 }
 
-#separator {
+#separator-bar {
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--def-main-color);
-    margin-top: -4px;
+    margin-top: -4px
 }
 
 #padding-wrap {
     padding: 20px;
-    background: var(--def-add-color);
+    background: var(--def-add-color)
 }
 
 .headline-section {
@@ -104,11 +137,11 @@ nav {
     font-weight: 500;
     font-size: 30px;
     text-transform: lowercase;
-    color: #fff;
+    color: #fff
 }
 
 #headline-about {
-    padding: 0 20px;
+    padding: 0 20px
 }
 
 #headline-introduction {
@@ -117,11 +150,7 @@ nav {
     text-transform: uppercase;
     background: #c92b2b;
     color: #000;
-    padding: 15px 40px;
-}
-
-main {
-    display: flex;
+    padding: 15px 40px
 }
 
 #about-text {
@@ -129,22 +158,22 @@ main {
     font-family: var(--def-roboto-font);
     font-weight: 300;
     text-align: justify;   
-    color: #fff;
+    color: #fff
 }
 
 #interested-list {
     padding: 0;
     display: flex;   
-    justify-content: space-evenly;
+    justify-content: space-evenly
 }
 
 .interested-item {
     font-size: 30px;
-    color: var(--def-secondary-text);
+    color: var(--def-secondary-text)
 }
 
 .interested-sep {
-    font-size: 30px;
+    font-size: 30px
 }
 
 .content-section {
@@ -153,23 +182,23 @@ main {
     flex-direction: column;
     padding: 0 20px;
     font-family: var(--def-roboto-font);
-    font-weight: bold;
+    font-weight: bold
 }
 
 .content-headline {
     text-align: center;
     font-family: var(--def-roboto-font);
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 
 .education-list-item {
-    display: flex;
+    display: flex
 }
 
 .education-list-item h4 {
     font-size: 14px;
     font-weight: 400;
-    margin-top: 0;
+    margin-top: 0
 }
 
 .education-list-point {
@@ -181,7 +210,7 @@ main {
     box-sizing: border-box;
     background-color: var(--def-point-color);
     margin: 5px 25px;
-    z-index: 2;
+    z-index: 2
 }
 
 #first-time-point:after {
@@ -192,51 +221,117 @@ main {
     width: 2px;
     height: 2200%;
     background-color: #000;
-    z-index: -1;
+    z-index: -1
 }
 
 .education-time {
     word-wrap: break-word;
     font-size: 18px;
-    flex: none;
+    flex: none
 }
 
 .education-establishment {
     margin: 0;
-    font-size: 16px;
+    font-size: 16px
 }
 
 #current-time-point {
-    background: var(--def-current-time-bg);
+    background: var(--def-current-time-bg)
 }
 
 .skill-list-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0;
+    margin: 30px 0
 }
 
 .skill-list-item * {
     flex: 1;
-    margin: 0 20px 0 10px;
+    margin: 0 20px 0 10px
 }
 
 .skill-text {
     text-align: right;
     font-family: var(--def-comfortaa-font);
-    font-weight: 100;
+    font-weight: 100
 }
 
 .skill-bar {
     height: 20px;
-    margin-top: -3px;
+    margin: -3px 50px 0 0;
     border: solid 1px #000;
-    border-radius: 0;
+    border-radius: 0
 }
 
 .skill-bar-bg {
     height: 100%;
     margin: 0;
-    background: var(--def-skill-bar-bg);
+    background: var(--def-skill-bar-bg)
+}
+
+#section-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--def-gotham-font)
+}
+
+#section-code-headline {
+    font-size: 30px;
+    font-weight: bold
+}
+
+#section-code-wrap {
+    width: 100%;
+    max-width: 600px;
+    text-align: justify;
+    box-sizing: border-box;
+    background: #f7f7f7;
+    padding: 0 15px
+}
+
+.code-desc {
+    font-weight: bold
+}
+
+code {
+    font-size: 12px
+}
+
+.blue-code {
+    color: var(--def-fst-code-color)
+}
+
+.red-code {
+    color: var(--def-scnd-code-color)
+}
+
+.green-code {   
+    color: var(--def-thrd-code-color)
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 0 20px;
+    margin-top: 40px;
+    background: var(--def-main-color);
+    font-family: var(--def-comfortaa-font);
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--def-footer-color)
+}
+
+.footer-tile {
+    display: flex;
+    align-items: center
+}
+
+#github-img {
+    margin-right: 10px;
+    font-size: 3rem
 }
