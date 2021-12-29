@@ -1,44 +1,54 @@
-#close-button {
-}
-
-#menu-toggle {
-    opacity: 0;
-}
-
-#menu-toggle:checked {
-
-}
-
-#menu-btn {
-    display: block;
-    width: 14px;
-    height: 14px;
-    cursor: pointer;
-}
-
-.x-line {
-    position: relative;
-    width: 14px;
-    height: 2px;
-    display: block;
+.menu-btn {
+    display: flex;
+    align-items: center;
+    width: 15px;
+    height: 15px;
     margin-right: 20px;
-    background: #ffffff;
+    cursor: pointer
 }
 
-#fst-close_line {
+#menu-toggle{
+    display: none;
+}
+   
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 15px;
+    height: 2px;
+    background: #000000;
+    transition-duration: .3s
+}
+
+.menu-btn span {
+    transform: rotate(0);
+}
+
+.menu-btn span::before {
+    transform: rotate(0);
+    top: -4px
+}
+
+.menu-btn span::after {
     top: 2px
 }
 
-#scnd-close_line {
-
-}
-
-#thrd-close_line {
-    top: -2px;
-    transform: rotate(-45deg);
-}
-
-#fst-close_line,
-#scnd-close_line {
+#menu-toggle:checked ~.menu-btn span {
     transform: rotate(45deg);
+}
+
+#menu-toggle:checked ~ .menu-btn span::before {
+    top: 0
+}
+
+#menu-toggle:checked ~ .menu-btn span::after {
+    transform: rotate(-90deg);
+    top: -2px
+}
+
+#menu-toggle:checked ~ #nav-list {
+    transform: none
 }
