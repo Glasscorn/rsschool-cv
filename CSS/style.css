@@ -231,7 +231,8 @@ nav {
 .education-time {
     word-wrap: break-word;
     font-size: 18px;
-    flex: none
+    flex: none;
+    margin: 0
 }
 
 .education-establishment {
